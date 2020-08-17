@@ -1,6 +1,8 @@
 #function through which we can pass our array as an argument
 def BubbleSort(arrinp):
     size=len(arrinp)
+    if size<=1:
+        return arrinp
 #for every element
     for i in range(size):
 #we can also take the iterator to be less than one the size of array, it won't make any difference in a small array but a bigger array would show the differences clear
