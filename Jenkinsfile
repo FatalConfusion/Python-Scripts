@@ -3,8 +3,7 @@ pipeline {
     stages {
         stage('build') {
             steps {
-                sh 'execution started'
-                sh 'execution complete'
+                sh 'execution started --> execution completed'
             }
         }
     }
